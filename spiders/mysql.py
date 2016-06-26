@@ -31,6 +31,6 @@ class MySQL:
             print 'update failed';
     
 if __name__ == '__main__':
-    db = MySQL('127.0.0.1', 'root', 'erpingtang', 'bupt', 3306, 'utf8', 5, '');
+    db = MySQL('127.0.0.1', 'root', '', 'bupt', 3306, 'utf8', 5, '');
     rows = db.query('select *from st_menu');
     print rows
